@@ -44,7 +44,7 @@ for epoch in range(epoch):
             # calculate loss with regularization
             MSE=tf.reduce_mean(tf.square(y_train-y))
             reg=[]
-            # L2 regulatization
+            # L2 regularization
             reg.append(tf.nn.l2_loss(w1))
             reg.append(tf.nn.l2_loss(w2))
             loss_reg=tf.reduce_sum(reg)
