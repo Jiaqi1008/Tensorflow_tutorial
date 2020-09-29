@@ -34,3 +34,6 @@ Fit model with your training and test data. You need to set up epoch, batch size
 See the detailed information of your model in this step.
 
 `iris_classification_sequential.py` and `iris_classification_class.py` are based on the previous iris classification model while `mnist_class.py` and `fashion_class.py` are class model that use the MNIST dataset and Fashion dataset.
+
+## 4.Advanced model setting up ##
+coming soon
