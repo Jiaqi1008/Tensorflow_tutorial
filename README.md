@@ -38,9 +38,10 @@ See the detailed information of your model in this step.
 ## 4.Advanced model setting up ##
 
 In previous chapter, we use six-step method to build a deep learning model. It can be understood that six-step method is a trunk and we can make the tree better by adding some branched and leaves on. Thus, in this charpter, we add different kinds of components into the model built by six-step method and let it be a classic model for all the deep learning task. You can find use `get_mnist.py` to save MNIST dataset on your device and `model_full_version.py` is the model with all the features. Lastly, you can use `mnist_prediction.py` to realize hand-write digits detection. We add following parts into our model. 
-*import self made dataset
-*data augment
-*checkpoint saving
-*parameters saving
-*visualization of accurate and loss function
-*test data from outside source
+
+* import self made dataset
+* data augment
+* checkpoint saving
+* parameters saving
+* visualization of accurate and loss function
+* test data from outside source
