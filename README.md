@@ -45,3 +45,6 @@ In previous chapter, we use six-step method to build a deep learning model. It c
 * parameters saving
 * visualization of accurate and loss function
 * test data from outside source
+
+## 5. CNN ##
+coming soon
