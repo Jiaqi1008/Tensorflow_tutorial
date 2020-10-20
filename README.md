@@ -50,11 +50,11 @@ In previous chapter, we use six-step method to build a deep learning model. It c
 
 In this section, we use CNN to process pictures. First of all, we can give out the overall definition of the CNN. CNN is just used as feacture extraction tool and the basic steps to realize a CNN process can be divided into five parts called "CBAPD".
 
-*C:Convolution layer
-*B:Batch Nomalization layer
-*A:Activation layer
-*P:Pool layer
-*D:Dropout layer
+* C:Convolution layer
+* B:Batch Nomalization layer
+* A:Activation layer
+* P:Pool layer
+* D:Dropout layer
 
 Above five steps can be the overall CNN structure and in practical usage, some of the parts can be omitted. In `cifar.py`, a simple demo has been employed on the data set of cifar 10. Also, you can find the realization of some famous net for computer vision like LeNet, VGGNet, AlexNet, InceptionNet and ResNet in `LeNet.py`, `VGGNet.py`, `AlexNet.py`, `InceptionNet.py` and `ResNet.py` respectly.
 
