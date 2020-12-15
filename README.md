@@ -59,4 +59,7 @@ In this section, we use CNN to process pictures. First of all, we can give out t
 Above five steps can be the overall CNN structure and in practical usage, some of the parts can be omitted. In `cifar.py`, a simple demo has been employed on the data set of cifar 10. Also, you can find the realization of some famous net for computer vision like LeNet, VGGNet, AlexNet, InceptionNet and ResNet in `LeNet.py`, `VGGNet.py`, `AlexNet.py`, `InceptionNet.py` and `ResNet.py` respectly.
 
 ## 6.RNN ##
-Coming soon
+
+In this section, we use RNN to process pictures. First of all, we can give out the overall definition of the RNN, LSTM and GRU. RNN family structure is also used as feacture extraction tool but it can store the previous knowledge of the training data, which means it is very fit for time-series data as well as the document data. The next problem is how to change non-numerical data into numerical data. One way is called one-hot coding. `character_pred_1to1.py` and `character_pred_4to1.py` use one-hot coding and RNN to realize character prediction. Also, word embedding can be introduced. With the help of the tensorflow embedding layer and RNN, `Embedding_pred_1to1.py` and `Embedding_pred_4to1.py` predict character.
+
+Then, we try to use RNN structure to predict time-series data, like stock. First, we should use API to aquire the stock data in `get_stock.py`. Then, with the RNN, LSTM, GRU layers, stock price can be predicted repectively in `rnn_stock.py`, `lstm_stock.py` and `gru_stock.py`.
